@@ -55,10 +55,10 @@
         td_layer_shift: td_layer_shift {
             compatible = "zmk,behavior-tap-dance";
             label = "TD_LAYER_SHIFT";
-            #binding-cells = <0>;
+            #binding-cells = <1>;
             bindings = <
-                &mo PLACEHOLDER_LAYER      // Single tap: switch to layer
-                &mt LSHIFT PLACEHOLDER_LAYER // Double tap: switch to layer with Shift
+                &mo $0    // Single tap: switch to layer
+                &mt LSHIFT $0 // Double tap: switch to layer with Shift
             >;
             tap-count = <2>;
         };
