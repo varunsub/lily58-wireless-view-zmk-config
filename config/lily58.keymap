@@ -11,7 +11,7 @@
 
 / {
     behaviors {
-        space_gui: mt_space_gui {
+        mt_space_gui: mt_space_gui {
             compatible = "zmk,behavior-hold-tap";
             label = "mt_ space_gui";
             bindings = <&kp>, <&kp>;
