@@ -58,6 +58,12 @@
             bindings = <&kp ESC>, <&kp GRAVE>;
             mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
         };
+        one_ctrl: one_ctrl {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp N1>, <&kp LS(N1)>;
+            mods = <(MOD_LCTRL)>;
+        };
     };
     macros {
         lm: lm {
