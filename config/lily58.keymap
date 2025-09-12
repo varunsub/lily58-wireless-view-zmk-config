@@ -85,10 +85,7 @@ compatible = "zmk,behavior-macro";
             tap-ms = <0>;
             #binding-cells = <0>;
             bindings
-= <&macro_press &lm lower_layer RSHFT>
-                , <&macro_pause_for_release>
-= <&macro_release &lm lower_layer RSHFT>;
-
+= <&kp lower_layer RSHFT>;
     };
         left_hold_lm: left_hold_lm {
 compatible = "zmk,behavior-macro";
@@ -96,10 +93,7 @@ compatible = "zmk,behavior-macro";
             tap-ms = <0>;
             #binding-cells = <0>;
             bindings
-= <&macro_press &lm raise_layer LSHFT>
-                , <&macro_pause_for_release>
-= <&macro_release &lm raise_layer LSHFT>;
-
+= <&kp &lm raise_layer LSHFT>;
     };
     };
     keymap {
