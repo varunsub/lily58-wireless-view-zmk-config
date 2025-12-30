@@ -25,32 +25,32 @@
             compatible = "zmk,behavior-mod-morph";
             label = "MM_J_GUI_ALT";
             #binding-cells = <0>;
-            mods       = <(MOD_LALT|MOD_LGUI | MOD_RCTRL)>;
-            keep-mods  = <(MOD_LALT|MOD_LGUI | MOD_RCTRL)>;
+            mods       = <(MOD_LALT|MOD_LGUI | MOD_RCTL)>;
+            keep-mods  = <(MOD_LALT|MOD_LGUI | MOD_RCTL)>;
             bindings   = <&kp J>, <&kp LEFT>;
         };
         k_arrow: behavior-mod-morph-k {
             compatible = "zmk,behavior-mod-morph";
             label = "MM_K_GUI_ALT";
             #binding-cells = <0>;
-            mods       = <(MOD_LALT|MOD_LGUI | MOD_RCTRL)>;
-            keep-mods  = <(MOD_LALT|MOD_LGUI | MOD_RCTRL)>;
+            mods       = <(MOD_LALT|MOD_LGUI | MOD_RCTL)>;
+            keep-mods  = <(MOD_LALT|MOD_LGUI | MOD_RCTL)>;
             bindings   = <&kp K>, <&kp DOWN>;
         };
         l_arrow: behavior-mod-morph-l {
             compatible = "zmk,behavior-mod-morph";
             label = "MM_L_GUI_ALT";
             #binding-cells = <0>;
-            mods       = <(MOD_LALT|MOD_LGUI | MOD_RCTRL)>;
-            keep-mods  = <(MOD_LALT|MOD_LGUI | MOD_RCTRL)>;
+            mods       = <(MOD_LALT|MOD_LGUI | MOD_RCTL)>;
+            keep-mods  = <(MOD_LALT|MOD_LGUI | MOD_RCTL)>;
             bindings   = <&kp L>, <&kp RIGHT>;
         };
         i_arrow: behavior-mod-morph-i {
             compatible = "zmk,behavior-mod-morph";
             label = "MM_I_GUI_ALT";
             #binding-cells = <0>;
-            mods       = <(MOD_LALT|MOD_LGUI | MOD_RCTRL)>;
-            keep-mods  = <(MOD_LALT|MOD_LGUI | MOD_RCTRL)>;
+            mods       = <(MOD_LALT|MOD_LGUI | MOD_RCTL)>;
+            keep-mods  = <(MOD_LALT|MOD_LGUI | MOD_RCTL)>;
             bindings   = <&kp I>, <&kp UP>;
         };
         gresc: grave_escape {
