@@ -79,22 +79,7 @@
                 ;
         };
 
-        right_hold_lm: right_hold_lm {
-compatible = "zmk,behavior-macro";
-            wait-ms = <0>;
-            tap-ms = <0>;
-            #binding-cells = <0>;
-            bindings
-= <&kp lower_layer RSHFT>;
-    };
-        left_hold_lm: left_hold_lm {
-compatible = "zmk,behavior-macro";
-            wait-ms = <0>;
-            tap-ms = <0>;
-            #binding-cells = <0>;
-            bindings
-= <&kp &lm raise_layer LSHFT>;
-    };
+
     };
     keymap {
         compatible = "zmk,keymap";
