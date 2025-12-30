@@ -67,7 +67,7 @@
             tap-ms = <0>;
             #binding-cells = <0>;
             bindings=
-                , <&macro_press &mo 1>
+                 <&macro_press &mo 1>
                 , <&macro_press &kp LSHFT>
                 , <&macro_pause_for_release>
                 , <&macro_release &mo 1>
@@ -80,7 +80,7 @@
             tap-ms = <0>;
             #binding-cells = <0>;
             bindings=
-                , <&macro_press &mo 2>
+                 <&macro_press &mo 2>
                 , <&macro_press &kp LSHFT>
                 , <&macro_pause_for_release>
                 , <&macro_release &mo 2>
