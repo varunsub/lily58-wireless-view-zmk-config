@@ -25,32 +25,32 @@
             compatible = "zmk,behavior-mod-morph";
             label = "MM_J_GUI_ALT";
             #binding-cells = <0>;
-            mods       = <(MOD_LALT|MOD_LGUI)>;
-            keep-mods  = <(MOD_LALT|MOD_LGUI)>;
+            mods       = <(MOD_LALT|MOD_LGUI | MOD_RCTRL)>;
+            keep-mods  = <(MOD_LALT|MOD_LGUI | MOD_RCTRL)>;
             bindings   = <&kp J>, <&kp LEFT>;
         };
         k_arrow: behavior-mod-morph-k {
             compatible = "zmk,behavior-mod-morph";
             label = "MM_K_GUI_ALT";
             #binding-cells = <0>;
-            mods       = <(MOD_LALT|MOD_LGUI)>;
-            keep-mods  = <(MOD_LALT|MOD_LGUI)>;
+            mods       = <(MOD_LALT|MOD_LGUI | MOD_RCTRL)>;
+            keep-mods  = <(MOD_LALT|MOD_LGUI | MOD_RCTRL)>;
             bindings   = <&kp K>, <&kp DOWN>;
         };
         l_arrow: behavior-mod-morph-l {
             compatible = "zmk,behavior-mod-morph";
             label = "MM_L_GUI_ALT";
             #binding-cells = <0>;
-            mods       = <(MOD_LALT|MOD_LGUI)>;
-            keep-mods  = <(MOD_LALT|MOD_LGUI)>;
+            mods       = <(MOD_LALT|MOD_LGUI | MOD_RCTRL)>;
+            keep-mods  = <(MOD_LALT|MOD_LGUI | MOD_RCTRL)>;
             bindings   = <&kp L>, <&kp RIGHT>;
         };
         i_arrow: behavior-mod-morph-i {
             compatible = "zmk,behavior-mod-morph";
             label = "MM_I_GUI_ALT";
             #binding-cells = <0>;
-            mods       = <(MOD_LALT|MOD_LGUI)>;
-            keep-mods  = <(MOD_LALT|MOD_LGUI)>;
+            mods       = <(MOD_LALT|MOD_LGUI | MOD_RCTRL)>;
+            keep-mods  = <(MOD_LALT|MOD_LGUI | MOD_RCTRL)>;
             bindings   = <&kp I>, <&kp UP>;
         };
         gresc: grave_escape {
@@ -105,7 +105,7 @@
 &kp TAB   &kp Q  &kp W  &kp E    &kp R    &kp T                      &kp Y  &kp U    &i_arrow     &kp O   &kp P    &kp MINUS
 &kp CAPS &kp A  &kp S  &kp D    &kp F    &kp G                      &kp H  &j_arrow    &k_arrow     &l_arrow   &kp SEMI &kp SQT
 &kp LSHFT &kp Z  &kp X  &kp C    &kp V    &kp B  &kp BSPC   &kp RET &kp N  &kp M    &kp COMMA &kp DOT &kp FSLH &kp RSHFT
-                            &tog 2 &mo 2  &kp LALT  &mt_space_gui LGUI SPACE     &mt_space_gui RGUI SPACE    &kp RCTRL &mo 1  &tog 1
+                            &lm_right &mo 2  &kp LALT  &mt_space_gui LGUI SPACE     &mt_space_gui RGUI SPACE    &kp RCTRL &mo 1  &lm_left
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
